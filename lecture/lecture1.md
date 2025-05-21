@@ -72,7 +72,7 @@ class:  middle
 
 # AI in medicine
 
-.width-100[![](/figures/lec1/ai-in-medicine.png)]
+.width-100[![](./figures/lec1/ai-in-medicine.png)]
 
 <br><br>
 
@@ -216,7 +216,7 @@ class: black-slide, middle
 <!-- background-image: url(./figures/lec1/ai-healthcare-market.png)
 background-size: contain -->
 
-.width-100[![](/figures/lec1/ai-healthcare-market.png)]
+.width-100[![](./figures/lec1/ai-healthcare-market.png)]
 
 .smaller-xx[.bold[CAGR] (Compound Annual Growth Rate)]
 
@@ -228,7 +228,7 @@ background-size: contain -->
 
 class: black-slide, middle
 
-.width-100[![](/figures/lec1/ai-healthcare-market-share.png)]
+.width-100[![](./figures/lec1/ai-healthcare-market-share.png)]
 
 .alert.smaller-x[The .bold[context-aware computing] segment is expected to grow at the fastest CAGR between 2025 and 2030. AI algorithms integrate and analyze diverse data sources such as electronic health records (EHRs), real-time vital signs, medical history, environmental factors, and patient activity to understand patient context dynamically.]
 
@@ -238,7 +238,7 @@ class: black-slide, middle
 
 class: black-slide, middle
 
-.width-100[![](/figures/lec1/ai-healthcare-industry-dynamics.png)]
+.width-100[![](./figures/lec1/ai-healthcare-industry-dynamics.png)]
 
 .alert.smaller-x[The Healthcare AI market exhibits a high degree of innovation, characterized by ongoing advancements in technology. Rapid developments in machine learning, deep learning, natural language processing, and computer vision are driving the evolution of AI-powered healthcare solutions.]
 
@@ -248,7 +248,7 @@ class: black-slide, middle
 
 class: black-slide, middle
 
-.width-100[![](/figures/lec1/ai-healthcare-market-trends-by-region.png)]
+.width-100[![](./figures/lec1/ai-healthcare-market-trends-by-region.png)]
 
 .alert.smaller-x[North America AI in healthcare industry dominated the global market and accounted for the largest revenue share of over 54% in 2024. 
 
