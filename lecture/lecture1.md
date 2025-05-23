@@ -5,9 +5,10 @@ class: middle, center, title-slide
 ## Federated learning for healthcare data
 
 <br><br>
-Yuri Gordienko<br>
-Ivan Zhuk<br>
 Yuriy Kochura<br>
+Ivan Zhuk<br>
+Yuri Gordienko<br>
+
 
 ---
 
@@ -23,21 +24,20 @@ Feel free to contact .bold[Yuriy Kochura] at [iuriy.kochura@gmail.com](mailto:iu
 <br>
 
 .grid[
-.kol-1-3[
-.circle.center.width-70[![](figures/lec1/Yuri-Gordienko.jpg)]
-.bold.center[Yuri Gordienko]
+.kol-1-3[ 
+.circle.center.width-70[![](./figures/lec1/ykochura.jpg)]
+.bold.center[Yuriy Kochura]
+
 ]
 
 .kol-1-3[ 
-.circle.center.width-70[![](figures/lec1/Ivan-Zhuk_photo.png)]
+.circle.center.width-70[![](./figures/lec1/Ivan-Zhuk_photo.png)]
 .bold.center[Ivan Zhuk]
   ]
 
-
-.kol-1-3[ 
-.circle.center.width-65[![](figures/lec1/ykochura.jpg)]
-.bold.center[Yuriy Kochura]
-
+.kol-1-3[
+.circle.center.width-65[![](./figures/lec1/Yuri-Gordienko.jpg)]
+.bold.center[Yuri Gordienko]
 ]]
 
 ---
@@ -54,7 +54,8 @@ background-size: cover
 
 🎙️ AI in Healthcare <br>
 🎙️ Market Size & Trends <br> 
-🎙️  <br> 
+🎙️ Federated Learning in Healthcare <br> 
+🎙️ Why we need FL? <br>
 
 </p>]
 
@@ -285,7 +286,12 @@ The following are the .bold[leading companies] in the AI in healthcare market. T
 
 ---
 
+class: blue-slide, middle, center
+count: false
 
+.larger-xxx[Federated Learning (FL) in Healthcare]
+
+---
 
 background-image: url(./figures/lec1/application.png)
 background-size: contain
@@ -295,6 +301,118 @@ background-size: contain
 .footnote[Credit: Nicola Rieke | Sr. Deep Learning Solution Architect - Healthcare - FEDERATED LEARNING USING CLARA TRAIN.]
 
 ---
+
+class: middle
+
+.bold.larger-x[Data-driven medicine requires federated efforts]
+
+.center.width-100[![](./figures/lec1/collaboration.png)]
+
+Possible Solution:
+.alert[.bold[Federated Learning] – learning paradigm that allows to integrate knowledge learned from non co-located data that resides within the participating entities into a global machine learning model.]
+
+.footnote[Credit: Nicola Rieke | Sr. Deep Learning Solution Architect - Healthcare - FEDERATED LEARNING USING CLARA TRAIN.]
+
+---
+
+class: middle
+
+# Paradigm Shift
+
+.center.width-100[![](./figures/lec1/fl-paradigm.png)]
+
+.bold.center[Federated Learning]
+.grid[
+.kol-1-2[
+- Enhanced data privacy and security
+- Raw data never leaves the device
+]
+.kol-1-2[
+- Improved model performance and diversity
+- Scalability and efficiency]
+]
+
+.footnote[Credit: NVIDIA Deep Learning Institute.]
+
+---
+
+class: middle
+
+.bold.larger-x[The future of digital health with federated learning]
+
+.grid[
+.kol-1-2[
+.smaller-x[Positioning Federated Learning (FL) for Healthcare
+
+- Сonsensus view on FL in healthcare
+- Benefits  and impact of FL for medical applications
+- Key challenges of implementing FL 
+]
+]
+
+.kol-1-2[
+.center.width-105[![](./figures/lec1/future-of-digital-health.png)]
+]]
+
+.footnote[Credit: [Rieke, N., Hancox, J., Li, W., Milletari, F., Roth, H. R., Albarqouni, S., ... & Cardoso, M. J. (2020). The future of digital health with federated learning. NPJ digital medicine, 3(1), 119](https://www.nature.com/articles/s41746-020-00323-1).]
+
+---
+
+class: blue-slide, middle, center
+count: false
+
+.larger-xxx[Why we need FL?]
+
+---
+
+
+class: middle,
+
+## Data is the Key to Generalizable, Robust AI Models 
+
+$$\text{Decentralized AI} = \text{federated compute} + \text{decentralized data, model}$$
+
+.grid[
+.kol-1-3[ 
+.center.width-70[![](./figures/lec1/law.jpg)]
+.bold.center[Regulations]
+
+.smaller-x.center[Health data is highly sensitive, subject to regulations and
+cannot easily be shared.]
+
+]
+
+.kol-1-3[ 
+.center.width-70[![](./figures/lec1/data.jpg)]
+.bold.center[Data Availability]
+
+.smaller-x.center[More data in private domain than public. Distributed data cross-country, rare data siloed and sparsely distributed.]
+  ]
+
+.kol-1-3[
+<br>
+.center.width-80[![](./figures/lec1/1726464736780.png)]
+.bold.center[Preserve Privacy]
+
+.smaller-x.center[Leveraging private data while preserving data privacy is the mission of .bold[federated learning].]
+
+]]
+
+.footnote[Credit: NVIDIA Deep Learning Institute.]
+
+---
+
+.smaller-x[Real-world medical AI development needs .bold[external validation, multiple institutions, prospective data]. Among 500+ published medical AI studies, only 6% of have external validation. Few included multiple institutions.] 
+
+.center.width-65[![](./figures/lec1/Characteristics.png)]
+.bold[Challenges: data sharing, regulation, legal, privacy, technical …]
+
+.footnote[Credit: [Kim DW, Jang HY, Kim KW, Shin Y, Park SH. Design Characteristics of Studies Reporting the Performance of Artificial Intelligence Algorithms for Diagnostic Analysis of Medical Images: Results from Recently Published Papers](https://pmc.ncbi.nlm.nih.gov/articles/PMC6389801/), 2019.]
+
+---
+
+
+
 
 
 class: end-slide, center
