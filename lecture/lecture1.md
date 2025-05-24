@@ -540,7 +540,7 @@ count: false
 background-image: url(./figures/lec1/overview.jpg)
 background-size: contain
 
-.smaller-xx[The .bold[MedMNIST] dataset consists of .highlight[12 datasets for 2D] and .highlight[6 datasets for 3D]. Covers key medical imaging modalities (.highlight[X-Ray, OCT, Ultrasound, CT, Electron Microscopy]). Supports tasks (.highlight[binary/multi-class classification, ordinal regression, multi-label]), and scales from .highlight[$10^2$] to .highlight[$10^5$] samples. Multiple size pptions: .highlight[28 (MNIST-Like)], .highlight[64], .highlight[128], and .highlight[224].]
+.smaller-xx[The .bold[MedMNIST] dataset consists of .highlight[12 datasets for 2D] and .highlight[6 datasets for 3D]. Covers key medical imaging modalities (.highlight[X-Ray, OCT, Ultrasound, CT, Electron Microscopy]). Supports tasks (.highlight[binary/multi-class classification, ordinal regression, multi-label]), and scales from .highlight[$10^2$] to .highlight[$10^5$] samples. Multiple size options: .highlight[28 (MNIST-Like)], .highlight[64], .highlight[128], and .highlight[224].]
 
 <br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br> <br><br><br>
