@@ -54,7 +54,7 @@ background-size: cover
 
 🎙️ AI in Healthcare <br>
 🎙️ Market Size & Trends <br> 
-🎙️ Federated Learning in Healthcare <br> 
+🎙️ Federated Learning (FL) in Healthcare <br> 
 🎙️ Why we need FL? <br>
 
 </p>]
@@ -408,6 +408,22 @@ cannot easily be shared.]
 .bold[Challenges: data sharing, regulation, legal, privacy, technical …]
 
 .footnote[Credit: [Kim DW, Jang HY, Kim KW, Shin Y, Park SH. Design Characteristics of Studies Reporting the Performance of Artificial Intelligence Algorithms for Diagnostic Analysis of Medical Images: Results from Recently Published Papers](https://pmc.ncbi.nlm.nih.gov/articles/PMC6389801/), 2019.]
+
+---
+
+class: middle
+
+.bold.larger-x[Separation of clinical data and compute]
+
+.center.width-60[![](./figures/lec1/env.png)]
+
+- Compute clusters typically operate outside Protected Health Information (PHI) compliant environments, limiting direct access to medical data.
+- Secure, compliant environments often have limited compute resources.
+- Strict firewalls and security measures complicate connecting to federated learning servers. 
+
+
+
+.footnote[Credit: John Garrett.Federated Learning in Medical Imaging: Enhancing Data Privacy and Advancing Healthcare, 2025.]
 
 ---
 
