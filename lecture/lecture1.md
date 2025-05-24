@@ -56,6 +56,10 @@ background-size: cover
 🎙️ Market Size & Trends <br> 
 🎙️ Federated Learning (FL) in Healthcare <br> 
 🎙️ Why we need FL? <br>
+🎙️ How does FL work? <br>
+🎙️ Data harmonization challenges for FL <br>
+🎙️ Large-scale standardized dataset (MedMNIST) <br>
+🎙️ Future directions for FL in Healthcare <br>
 
 </p>]
 
@@ -421,12 +425,194 @@ class: middle
 - Secure, compliant environments often have limited compute resources.
 - Strict firewalls and security measures complicate connecting to federated learning servers. 
 
+.footnote[Credit: John Garrett.Federated Learning in Medical Imaging: Enhancing Data Privacy and Advancing Healthcare, 2025.]
 
+---
+
+class: blue-slide, middle, center
+count: false
+
+.larger-xxx[How does FL work?]
+
+---
+
+
+background-image: url(./figures/lec1/Communication-Architectures.png)
+background-size: contain
+
+# Communication Architectures
+
+.footnote[Credit: Nicola Rieke | Sr. Deep Learning Solution Architect - Healthcare - FEDERATED LEARNING USING CLARA TRAIN.]
+
+---
+
+
+background-image: url(./figures/lec1/clients.png)
+background-size: contain
+
+.bold.larger-x[Server-Client Federated Learning: Averaging]
+
+<br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
+.smaller-x[$n_k$ is the number of local data samples at client $k$; <br>
+$n$ is the total number of samples across all participating clients; <br>
+$w_t^k$ &mdash; model weights trained locally by client $k$; <br>
+$t$ is a communication round. ]
+
+
+.footnote[Credit: Nicola Rieke | Sr. Deep Learning Solution Architect - Healthcare - FEDERATED LEARNING USING CLARA TRAIN.]
+
+---
+
+class: middle
+
+.bold.larger-x[Server-Client Federated Learning]
+
+- .bold[Server:] manages job lifecycle, assigns computation tasks to clients & aggregate.
+- .bold[Clients:] perform tasks assigned by the server.
+- .bold[Workflow:] a distributed workflow with specific optimization algorithms and communication strategies.
+
+
+.center.width-85[![](./figures/lec1/clients2.png)]
+
+
+.footnote[Credit: Nicola Rieke | Sr. Deep Learning Solution Architect - Healthcare - FEDERATED LEARNING USING CLARA TRAIN.]
+
+---
+
+background-image: url(./figures/lec1/high-level.png)
+background-size: contain
+
+# High-level implementation
+
+
+.footnote[Credit: Nicola Rieke | Sr. Deep Learning Solution Architect - Healthcare - FEDERATED LEARNING USING CLARA TRAIN.]
+
+---
+
+class: blue-slide, middle, center
+count: false
+
+.larger-xxx[Data harmonization challenges for FL]
+
+---
+
+- .bold[Protocol and equipment variability]
+  - Differences in imaging methods and machines between institutions.
 
 .footnote[Credit: John Garrett.Federated Learning in Medical Imaging: Enhancing Data Privacy and Advancing Healthcare, 2025.]
 
 ---
 
+count: false
+
+- .inactive[.bold[Protocol and equipment variability]]
+  - .inactive[Differences in imaging methods and machines between institutions.]
+- .bold[Data interoperability]
+  - Using common formats and processing methods for easier analysis.
+  - In medical imaging DICOM standard is widespred, though clinical data such as labs is less standardized.
+
+.footnote[Credit: John Garrett.Federated Learning in Medical Imaging: Enhancing Data Privacy and Advancing Healthcare, 2025.]
+
+---
+
+count: false
+
+- .inactive[.bold[Protocol and equipment variability]]
+  - .inactive[Differences in imaging methods and machines between institutions.]
+- .inactive[.bold[Data interoperability]]
+  - .inactive[Using common formats and processing methods for easier analysis.]
+  - .inactive[In medical imaging DICOM standard is widespred, though clinical data such as labs is less standardized.]
+- .bold[Labeling differences]
+  - Inconsistent terminology and labels are used across different organizations.
+
+.footnote[Credit: John Garrett.Federated Learning in Medical Imaging: Enhancing Data Privacy and Advancing Healthcare, 2025.]
+
+---
+
+class: blue-slide, middle, center
+count: false
+
+.larger-xxx[Large-scale standardized dataset (MedMNIST)]
+
+---
+
+background-image: url(./figures/lec1/overview.jpg)
+background-size: contain
+
+.smaller-xx[The .bold[MedMNIST] dataset consists of .highlight[12 datasets for 2D] and .highlight[6 datasets for 3D]. Covers key medical imaging modalities (.highlight[X-Ray, OCT, Ultrasound, CT, Electron Microscopy]). Supports tasks (.highlight[binary/multi-class classification, ordinal regression, multi-label]), and scales from .highlight[$10^2$] to .highlight[$10^5$] samples. Multiple size pptions: .highlight[28 (MNIST-Like)], .highlight[64], .highlight[128], and .highlight[224].]
+
+<br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br> <br><br><br>
+
+. <br>
+.
+
+.footnote[Credit: [MedMNIST. 18x Standardized Datasets for 2D and 3D Biomedical Image Classification with Multiple Size Options: 28 (MNIST-Like), 64, 128, and 224](https://medmnist.com/), 2020.]
+
+---
+
+background-image: url(./figures/lec1/MedMNIST2D.png)
+background-size: contain
+
+
+.footnote[Credit: [MedMNIST. 18x Standardized Datasets for 2D and 3D Biomedical Image Classification with Multiple Size Options: 28 (MNIST-Like), 64, 128, and 224](https://medmnist.com/), 2020.]
+
+---
+
+background-image: url(./figures/lec1/MedMNIST3D.png)
+background-size: contain
+
+
+.footnote[Credit: [MedMNIST. 18x Standardized Datasets for 2D and 3D Biomedical Image Classification with Multiple Size Options: 28 (MNIST-Like), 64, 128, and 224](https://medmnist.com/), 2020.]
+
+---
+
+background-image: url(./figures/lec1/Benchmarking-MedMNIST2D.png)
+background-size: contain
+
+
+.footnote[Credit: [MedMNIST. 18x Standardized Datasets for 2D and 3D Biomedical Image Classification with Multiple Size Options: 28 (MNIST-Like), 64, 128, and 224](https://medmnist.com/), 2020.]
+
+---
+
+background-image: url(./figures/lec1/Benchmarking-MedMNIST3D.png)
+background-size: contain
+
+
+.footnote[Credit: [MedMNIST. 18x Standardized Datasets for 2D and 3D Biomedical Image Classification with Multiple Size Options: 28 (MNIST-Like), 64, 128, and 224](https://medmnist.com/), 2020.]
+
+---
+
+background-image: url(./figures/lec1/benchmark.png)
+background-size: contain
+
+
+.footnote[Credit: [Rethinking model prototyping through the MedMNIST+ dataset collection](https://github.com/sdoerrich97/rethinking-model-prototyping-MedMNISTPlus?tab=readme-ov-file), 2025.]
+
+---
+
+class: blue-slide, middle, center
+count: false
+
+.larger-xxx[Future directions for FL in Healthcare]
+
+---
+
+
+class: middle
+
+.bold.larger-x[Real time updates to clinical models]
+
+.center.width-50[![](./figures/lec1/future.png)]
+
+.alert[Today basically all imaging AI models deployed and used clinically are static.]
+
+.success[Though there's a need to work with the FDA, federated learning may soon facilitate real time refinement and updates of deployed models.]
+
+.footnote[Credit: John Garrett.Federated Learning in Medical Imaging: Enhancing Data Privacy and Advancing Healthcare, 2025.]
+
+---
 
 
 
