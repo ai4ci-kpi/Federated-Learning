@@ -451,10 +451,10 @@ td {
 .title-slide:before {
     content: '';
     position: absolute;
-    bottom: 1em;
-    left: 2em;
+    bottom: 5em;
+    left: 4em;
     width: 200px;
-    height: 120px;
+    height: 80px;
     background: url("../assets/ai4ci.jpg") no-repeat center;
     background-size: contain;
     display: block;
@@ -466,10 +466,10 @@ td {
     content: '';
     position: absolute;
     bottom: 1em;
-    right: 2em;
+    right: 4em;
     width: 200px;
     height: 100px;
-    background: url("../assets/Flag_of_Europe.png") no-repeat center;
+    background: url("../assets/Co-funded_01.svg") no-repeat center;
     background-size: contain;
     display: block;
     pointer-events: none;
@@ -506,6 +506,11 @@ td {
 
 .shadow {
     background-color: rgba(0,0,0,0.75);
+    padding: 10px;
+}
+
+.shadow-ue {
+    background-color: rgba(0, 72, 166, 0.88);
     padding: 10px;
 }
 

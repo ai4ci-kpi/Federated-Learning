@@ -1,4 +1,4 @@
-class: middle, center, title-slide
+class: middle, center, title-slide, 
 
 # Distributed and Federated Learning
 
@@ -12,8 +12,9 @@ Yuri Gordienko
 National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute”
 
 <br><br><br><br>
-.smaller-x[Project ID: 101123524]
-
+.smaller-x[<p class="shadow-ue" style="line-height: 200%;  color: white;"> 
+Project ID: 101123524
+</p>]
 
 ---
 
