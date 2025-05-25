@@ -444,16 +444,36 @@ td {
 
 /* Specials ----------------------------------------------------------------- */
 
-.title-slide:after{
+.title-slide {
+    position: relative;
+}
+
+.title-slide:before {
     content: '';
-    background: url("../assets/logo.png") no-repeat;
-    background-size: 90% 90%;
-    width: 400px;
-    height: 270px;
     position: absolute;
-    bottom: -1.5em;
-    left: 1em;
-    display: inline-block;
+    bottom: 1em;
+    left: 2em;
+    width: 200px;
+    height: 120px;
+    background: url("../assets/ai4ci.jpg") no-repeat center;
+    background-size: contain;
+    display: block;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.title-slide:after {
+    content: '';
+    position: absolute;
+    bottom: 1em;
+    right: 2em;
+    width: 200px;
+    height: 100px;
+    background: url("../assets/Flag_of_Europe.png") no-repeat center;
+    background-size: contain;
+    display: block;
+    pointer-events: none;
+    z-index: 1;
 }
 
 .title-slide, .section {

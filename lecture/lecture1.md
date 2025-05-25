@@ -2,12 +2,17 @@ class: middle, center, title-slide
 
 # Distributed and Federated Learning
 
-## Federated learning for healthcare data
+.bold.larger-x[Federated learning for healthcare data]
 
 <br><br>
 Yuriy Kochura<br>
 Ivan Zhuk<br>
-Yuri Gordienko<br>
+Yuri Gordienko
+
+National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute”
+
+<br><br><br><br>
+.smaller-x[Project ID: 101123524]
 
 
 ---
