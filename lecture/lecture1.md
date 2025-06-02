@@ -16,6 +16,18 @@ National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Insti
 Project ID: 101123524
 </p>]
 
+???
+Good [morning/afternoon], everyone!
+
+Before  I get started the lecturewe and dive in, just a quick check — Can everyone see the slides and hear me clearly?
+
+If you can, please give me a quick thumbs up or just type “yes” in the chat.
+If anything isn’t working — audio, visuals, or connection — let me know right away so I can fix it.
+
+Let me briefly introduce myself. My name is Yuriy Kochura, and I specialize in machine learning and deep learning. I’ve been working on applying AI methods to healthcare data for medical prognosis, diagnosis and treatment. Also, I'm interested in techniques that allow robots to acquire new skills with minimal supervision in real-world environments autonomously. At Igor Sikorsky Kyiv Polytechnic Institute I have been teaching related courses for several years.
+
+Today, we are going to explore a highly relevant and rapidly evolving topic — Federated Learning for Healthcare Data.
+
 ---
 
 # Us
@@ -68,6 +80,15 @@ background-size: cover
 🎙️ Future directions for FL in Healthcare <br>
 
 </p>]
+
+
+???
+In today’s lecture, we’ll discuss:
+
+
+This topic lies at the intersection of artificial intelligence, medicine, and ethics. I encourage you to think critically, ask questions, and engage in the discussion — because these are not just technical challenges, but also societal ones.
+
+MNIST stands for the Modified National Institute of Standards and Technology.
 
 ---
 
